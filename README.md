@@ -61,10 +61,27 @@ This RL-powered **Personalized Learning & Skill Development** system adapts dyna
 
 ## 📈 Key Results
 
-- 🧪 **DQN** required ~5500 episodes to converge.  
-- ⚡ **PPO** converged faster, at ~3000 episodes.  
-- 🔄 PPO showed better generalization to new states.  
-- 📉 DQN had more variance early on and required more tuning.
+### 🧪 Cumulative Rewards
+![Cumulative Reward Comparison](assets/cumulative_reward.png)
+> PPO reaches higher cumulative rewards faster than DQN.
+
+---
+
+### 📉 Training Stability
+![Training Loss and Policy Entropy](assets/training_stability.png)
+> DQN shows early fluctuation in loss; PPO's entropy steadily decreases.
+
+---
+
+### 🏁 Convergence Speed
+![Episodes to Convergence](assets/convergence.png)
+> PPO stabilizes around 3,000 episodes; DQN takes about 5,500.
+
+---
+
+### 🧠 Generalization Performance
+![Generalization Graph](assets/generalization.png)
+> PPO maintains strong performance in unseen states. DQN struggles without retraining.
 
 ---
 
