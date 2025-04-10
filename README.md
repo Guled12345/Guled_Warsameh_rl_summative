@@ -2,9 +2,7 @@
 
 ## 🎯 Project Mission
 
-My mission at ALU is to transform the education system of Somalia by empowering youth through emerging technologies. This initiative aims to build a **Business Innovation Hub**, bringing together entrepreneurs, innovators, leaders, and students for collaboration and creativity.  
-
-This RL-powered **Personalized Learning & Skill Development** system adapts dynamically to student progress, ensuring tailored challenges and resources for every learner.
+The goal of this project is to optimize an agent in an unique learning platform  environment by implementing and comparing two reinforcement learning techniques: Deep Q-Network (DQN) and Policy Gradient Methods (PPO). The agent chooses strategic actions in a specific context with the aim of optimizing student learning results. In order to assess value-based (DQN) and policy-based (PPO) approaches, the study examines their generalization capacity, exploration-exploitation tradeoff, and convergence speed. 
 
 ---
 
